@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Noorly" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green_500</item>
+        <item name="colorPrimaryVariant">@color/gold_500</item>
+        <item name="colorOnPrimary">@color/cream_500</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+    </style>
+</resources>
