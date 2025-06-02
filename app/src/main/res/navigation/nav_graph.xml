@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.noorly.noorlyapp.ui.HomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/quranFragment"
+        android:name="com.noorly.noorlyapp.ui.QuranFragment"
+        android:label="Quran" />
+
+    <fragment
+        android:id="@+id/hadithFragment"
+        android:name="com.noorly.noorlyapp.ui.HadithFragment"
+        android:label="Hadith" />
+
+    <fragment
+        android:id="@+id/duasFragment"
+        android:name="com.noorly.noorlyapp.ui.DuasFragment"
+        android:label="Duas" />
+
+    <fragment
+        android:id="@+id/prayerTimesFragment"
+        android:name="com.noorly.noorlyapp.ui.PrayerTimesFragment"
+        android:label="Prayer Times" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.noorly.noorlyapp.ui.SettingsFragment"
+        android:label="Settings" />
+</navigation>
